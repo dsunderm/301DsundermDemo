@@ -102,7 +102,7 @@ class CityListTest {
         City city2 = new City("Fort Resolution", "Northwest Territories");
         cityList.add(city2);
         //Test if the second city got added
-        assertEquals(2, cityList.countCities());
+        assertEquals(3, cityList.countCities());
 
 
     }
