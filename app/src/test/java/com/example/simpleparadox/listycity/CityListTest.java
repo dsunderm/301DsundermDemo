@@ -99,10 +99,9 @@ class CityListTest {
         CityList cityList = mockCityList();
         City city = new City("Victoria", "British Columbia");
         cityList.add(city);
-        City city2 = city;
+        City city2 = new City("Fort Resolution", "Northwest Territories");
         cityList.add(city2);
         //Test if the second city got added
-        //Should fail because we can't add the exact same city
         assertEquals(2, cityList.countCities());
 
 
